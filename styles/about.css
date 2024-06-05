@@ -1,0 +1,108 @@
+body {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Playfair Display', serif;
+        margin: 1em auto;
+        padding: 0;
+        background-color: white;
+        color: #333;
+        width: 960px;
+        border: 1px solid black;
+    }
+
+
+.cursive-text {
+    font-family: cursive;
+}
+.greek-islands {
+    width: 50%;
+    height: 50%;
+    align-self: center;
+}
+
+header {
+    background-color: white;
+    background-image: url(/images/female.png);
+    background-size: 100px 100px;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #0077cc;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+   margin: 0;
+   text-align: center;
+   padding-left: 2em;
+   color: #0077cc;
+  /* background-color: #0077cc;*/
+   font-weight: lighter;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid lightgray;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 0 1em;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 110%;
+    text-decoration: none;
+ 
+}
+
+main {
+    padding: 0 10px;
+}
+img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding-right: 1em;
+}
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #0077cc;
+    padding-left: 2em;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+.destination {
+    margin-bottom: 20px;
+}
+
+.islands {
+    width: 50%;
+    height: 50%;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
